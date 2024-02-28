@@ -1,0 +1,292 @@
+.barlow-thin {
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  }
+
+  .barlow-thin-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  }
+
+  .barlow-extralight {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  }
+
+  .barlow-extralight-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  }
+
+  .barlow-light {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  }
+
+  .barlow-light-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  }
+
+  .barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  .barlow-regular-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  }
+
+  .barlow-medium {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  }
+
+  .barlow-medium-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  }
+
+  .barlow-semibold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  }
+
+  .barlow-semibold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  }
+
+  .barlow-bold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  }
+
+  .barlow-bold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  }
+
+  .barlow-extrabold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  }
+
+  .barlow-extrabold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  }
+
+  .barlow-black {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  }
+
+  .barlow-black-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  }
+
+
+  .poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  }
+
+  .poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  }
+
+  .poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  }
+
+  .poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  }
+
+  .poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  }
+
+  .poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  }
+
+  .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  .poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  }
+
+  .poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  }
+
+  .poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  }
+
+  .poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  }
+
+  .poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  }
+
+  .poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  }
+
+  .poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  }
+
+  .poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  }
+
+  .poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  }
+
+  .poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  }
+
+  .poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  }
+  
+  
+
+  #introbg {
+      padding-top: 5vmax;
+      padding-bottom: 5vmax;
+      background-color: #EAD94C;
+      background-image: url(/assets/tam.png);
+      background-image: ;
+      background-position: 90%;
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
+
+  #introimg {
+      max-height: 220px;
+      ;
+
+  }
+  #somos {
+      padding-top: 5vmax;
+      padding-bottom: 5vmax;
+      
+  }
+  .accordion {
+  --bs-accordion-btn-bg: #ffffff;
+  --bs-accordion-active-bg: rgb(228, 228, 228);
+  --bs-accordion-active-color: #000000;
+  --bs-accordion-bg: rgb(228, 228, 228);
+  --bs-accordion-color: #000000;
+  --bs-accordion-btn-focus-box-shadow: none;
+  }
+
+  #cards {
+      padding-top: 5vmax;
+      padding-bottom: 5vmax;
+      background-color: #0083BF;
+  }
+
+  #servicios {
+      padding-top: 5vmax;
+      padding-bottom: 5vmax;
+
+  }    
+
+  #talleres {
+      padding-top: 5vmax;
+      padding-bottom: 5vmax;
+      background-color: #BFD42F;
+
+  }    
+
+  img{
+    max-width: 100%;
+  }
+  .gallery{
+    background-color: #BFD42F;
+    padding: 80px 0px 5px;
+  }
+  .gallery img{
+    background-color: #ffffff;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+  }
+  #gallery-modal .modal-img{
+    width: 100%;
+  }
+
+  #footer {
+      padding-top: 2vmax;
+      padding-bottom: 2vmax;
+      font-size: 1em;
+      
+  }
