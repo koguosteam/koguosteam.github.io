@@ -1,260 +1,293 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Koguo Taller de Ideas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <title>Koguo Taller de Ideas</title> 
-    <style>
-        header{
-            background: url(img/bg.jpg);
-            background-size: cover;
-            background-position: center;
-            min-height: 1000px;
-        }
-        @media screen  and  (max-width: 670px){
-          header{
-            min-height: 500px;
-          }
-        }
 
-    </style>
 </head>
 <body>
-    <header>
-        <nav class="deep-purple lighten-2 white-text">
-            <div class="container">
-
     
-            <div class="nav-wrapper ">
-              <a href="#!" class="brand-logo"><img class="responsive-img" id="logo" src="img/logo_trans.png" width="180" alt="Koguo"/></a>
-              <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-              <ul class="right hide-on-med-and-down">
-                <li><a href="#somos">¿Qué somos?</a></li>
-                <li><a href="#cards">Eventos</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="https://www.facebook.com/koguo.taller" target="_blank" class="btn-floating btn-small deep-purple lighten-2">
-                    <i class="fab fa-facebook"></i>
-                </a></li>
-                <li><a href="https://www.instagram.com/koguo.taller" target="_blank" class="btn-floating btn-small deep-purple lighten-2">
-                    <i class="fab fa-instagram"></i>
-                </a></li>
-              </ul>
-            </div>
-            </div>
-          </nav>
-         
-          <ul class="sidenav indigo accent-1 " id="mobile-menu">
-            <li><a href="#somos">¿Qué somos?</a></li>
-            <li><a href="#cards">Eventos</a></li>
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="https://www.facebook.com/koguo.taller" target="_blank">Facebook <i class="fab fa-facebook right"></i>
-            </a></li>
-            <li><a href="https://www.instagram.com/koguo.taller" target="_blank">Instagram <i class="fab fa-instagram right"></i>
-            </a></li>
-          </ul>
-            </div>
-        </nav>
+
+    <header>
+
+        <div class="container fluid p-0">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="assets/logo_koguo_2.png" alt="Koguo" width="90">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">                 
+                    <div class="navbar-nav poppins-regular">
+                      <a class="nav-link active" aria-current="page" href="#intro">Home</a>
+                      <a class="nav-link menu " href="#somos">¿Qué somos?</a>
+                      <a class="nav-link menu" href="#cards">Eventos</a>
+                      <a class="nav-link menu" href="#servicios">Servicios</a>
+                      <a class="nav-link menu" href="#galeria">Galeria</a>
+                      <a class="nav-link" href="https://www.facebook.com/koguo.taller" target="_blank"><i class="bi bi-facebook"></i></a>
+                      <a class="nav-link" href="https://www.instagram.com/koguo.taller" target="_blank "><i class="bi bi-instagram"></i></a> 
+                      <a class="nav-link" href="https://wa.me/message/QEPS6PKKX7RSF1" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+
+
+
+        </div>
 
 
     </header>
-    
-    <section class="container section scrollspy" id="somos">
-        
-         <div class="container section">
-
-            <div class:="row">
-                <h3 class="indigo-text text darken-4">¿Qué es Koguo?</h3>
-                <p> “KOGUO® taller de ideas”, nace de la inquietud de generar experiencias de aprendizaje que desarrollen habilidades, concienticen y eduquen con vistas en las verdaderas necesidades y realidades del mundo contemporáneo. Nuestra propuesta se basa en experiencias de juego guiado por medio de la construcción y experimentación empleando materiales de trabajo y dinámicas creadas por nosotros,</p>
-
-            </div>
-            <ul class="collapsible">
-                <li>
-                  <div class="collapsible-header"><i class="material-icons">expand_more</i>Misión</div>
-                  <div class="collapsible-body"><span>Ser un espacio que propicie en todo momento, experiencias positivas de juego que promuevan y logren aprendizajes y habilidades para la vida real en el marco de la educación STEAM con un enfoque colaborativo y humanista.</span></div>
-                </li>
-                <li>
-                  <div class="collapsible-header"><i class="material-icons">expand_more</i>Visión</div>
-                  <div class="collapsible-body"><span>Impulsar un aprendizaje STEAM que fomente la concientización social, ayude a reducir la brecha intergeneracional, fomente la equidad de género y proporcione mejores oportunidades laborales; convirtiéndonos en empresa líder en enseñanza de aprendizajes colaborativos.</span></div>
-                </li>
-                <li>
-                  <div class="collapsible-header"><i class="material-icons">expand_more</i>Filosofía</div>
-                  <div class="collapsible-body"><span>Los usuarios son constructores de su propio conocimiento haciendo que el aprendizaje suceda mediante experiencias divertidas y significativas. Niños, adultos y adultos mayores mantienen un rol activo y forman parte de un equipo colaborativo.</span></div>
-                </li>
-              </ul>
-            
-
-         </div>
-        <div class="row">
-
-        </div> 
+    <!--Just the intro-->
+    <section id="intro">
+        <div class="container-fluid" id="introbg">
+            <div class="container-lg">
+                <div class="row justify-content-start aling-items-center">
+                    <div class="col-md-6 text-md-start border-start border-3 ">
+                        <h5>
+                            <div class="display-5 barlow-thin">la educación</div>
+                            <div class="display-5 barlow-thin">cambia,</div>
+                            <div class="display-5 poppins-bold">PORQUE EL</div>
+                            <div class="display-5 poppins-bold">MUNDO CAMBIA</div>
+                        </h5>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <img class="img-fluid" id="introimg" src="" alt="">
+                    </div>
+                </div>
+            </div> 
+        </div>
     </section>
 
+     <!--que somos-->
 
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="img/tablero.jpg" alt="maquinas" class="responsive-img">
+    <section id="somos">
+        <div class="container-fluid">
+            <div class="container-lg">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="display-5 text-muted poppins-semibold">¿Qué es koguo?</h5> 
+                    </div>   
+                    <div class="col text-mx-start">
+                        <p class="poppins-light"><span class="poppins-semibold">“KOGUO® taller de ideas”</span>, nace de la inquietud de generar experiencias de aprendizaje que desarrollen habilidades, concienticen
+                            y eduquen con vistas en las verdaderas necesidades y realidades del mundo contemporáneo. Nuestra propuesta se basa en experiencias de juego guiado
+                            por medio de la construcción y experimentación empleando materiales de trabajo y dinámicas creadas por nosotros.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                         
+                    </div>   
+                    <div class="col text-mx-start">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header poppins-semibold">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Misión
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="poppins-light">Ser un espacio que propicie en todo momento, experiencias positivas de juego que promuevan y logren aprendizajes y habilidades para la vida real
+                                    en el marco de la educación STEAM con un enfoque colaborativo y humanista.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header poppins-semibold">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Visión
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="poppins-light">Impulsar un aprendizaje STEAM que fomente la concientización social, ayude a reducir la brecha intergeneracional,
+                                        fomente la equidad de género y proporcione mejores oportunidades laborales; convirtiéndonos en empresa líder en enseñanza de aprendizajes colaborativos.
+                                    </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header poppins-semibold">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Filosofía
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="poppins-light">Los usuarios son constructores de su propio conocimiento haciendo que el aprendizaje suceda mediante experiencias divertidas y significativas.
+                                        Niños, adultos y adultos mayores mantienen un rol activo y forman parte de un equipo colaborativo.
+                                    </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <section id="cards">
+      <div class="container-fluid">
+        <div class="container-lg">
+
+          <div class="card-group">
+            <div class="card">
+              <img src="assets/aventura_steam_fb.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Aventura steam</h5>
+                <p class="card-text">En KOGUO vivimos experiencias de aprendizaje que fomentan una infancia feliz, motivan la construcción de relaciones y desarrollan la base para el éxito futuro.
+                  Ayudamos a tu pequeño a desarrollar habilidades cognitivas, lingüísticas, socioemocionales y físicas que lo ayudarán a ser un estudiante brillante, líder y ciudadano del mundo.</p>
+                <p class="card-text"><small class="text-body-secondary"></small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/reconstruye.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">RE Construye tu mundo</h5>
+                <p class="card-text">Si lo puedes soñar, lo puedes construir!!! <br>
+                  #MujeresEnCiencia #STEAM #vocacionessteam #futurosheroes #ReconstruyeElFuturo</p>
+                <p class="card-text"><small class="text-body-secondary"></small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/salamat_2024.jpeg" class="card-img-top" alt="sala maternal">
+              <div class="card-body">
+                <h5 class="card-title">Educación Inicial</h5>
+                <p class="card-text">Ciclo escolar 24-25 <br>
+                  Inscripciones Abiertas <br>
+                  Recibimos a tu peque a partir de que camina <br>
+                  🏁Viernes de Consejo Técnicos incluidos <br>
+                  🏁 Educación personalizada <br>
+                  🏁 Talleres extraescolares <br>
+                  🏁 Grupos reducidos <br>
+                  🏁 Asistentes educativos capacitados y con experiencia</p>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    
-    <section class="container section scrollspy" id="cards">
+      </div>
 
-        <div class="row">
-            <div class="col s12 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="img/koguo_viernes.jpeg">
-                    </div>
-                    <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">Viernes Técnico<i class="material-icons right">more_vert</i></span>
-                      <p class=".hide-on-med-and-up"><a href="https://wa.me/message/QEPS6PKKX7RSF1" target="_blank">whatsapp</a></p>
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Viernes Técnico<i class="material-icons right">close</i></span>
-                      <p>El mundo es un lugar maravilloso que merece ser explorado.
-                        Ven con nosotros a viajar. ¡Aparta tu lugar el cupo es limitado!
-                        #STEAM
+    </section>
+
+    <section id="servicios">
+      <div class="container-fluid">
+          <div class="container-lg">
+              <div class="row">
+                  <div class="col-md-6">
+                      <h5 class="display-5 text-muted poppins-semibold">Servicios</h5> 
+                  </div>   
+                  <div class="col text-mx-start">
+                      <div class="row">
                         
-                        📣Viernes 23 de FEBRERO
-                        💡Horario de 9:00 – 1:00
-                        🏁Edades: 1.5 años - 11 años
-                        🌟Costo previa inscripción $350.00</p>
+                          <ul class="list-group list-group-flush poppins-light">
+                            <li class="list-group-item">Sala maternal STEAM</li>
+                            <li class="list-group-item">Talleres extra escolares de iniciación literaria, conversación en otros idiomas (inglés, alemán), steam, expresión corporal, arte, ingeniería y mecánica, escritura creativa, religión, etc.</li>
+                            <li class="list-group-item">Talleres estacionales de primavera, verano e invierno y viernes técnicos.</li>
+                            <li class="list-group-item">Apoyo y seguimiento a necesidades especiales de aprendizaje, de lenguaje y comunicación, motricidad, atención y nivelaciones académicas.</li>
+                            <li class="list-group-item">Vinculaciones especiales con escuelas, empresas e instituciones.</li>
+                            <li class="list-group-item">Actividades intergeneracionales.</li>
+                            <li class="list-group-item">Clínicas temáticas interactivas.</li>
+                            <li class="list-group-item">Eventos y dinámicas especiales (detección de necesidades, integración, convivencia, creatividad, comunicación, desarrollo de talento, etc.).</li>
+                          </ul>
                     </div>
-                </div>
-            </div>
-
-            <div class="col s12 l4">
-                <div class="card">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                          <img class="activator" src="img/reconstruye.jpeg">
-                        </div>
-                        <div class="card-content">
-                          <span class="card-title activator grey-text text-darken-4">Re construye el futuro<i class="material-icons right">more_vert</i></span>
-                          <p><a href="https://www.facebook.com/photo?fbid=1153696242619996&set=a.455568919099402" target="_blank">facebook</a></p>
-                      
-                        </div>
-                        <div class="card-reveal">
-                          <span class="card-title grey-text text-darken-4">RE CONSTRUYE EL FUTURO<i class="material-icons right">close</i></span>
-                          <p>Si lo puedes soñar, lo puedes construir!!!
-                            #MujeresEnCiencia #STEAM #vocacionessteam #futurosheroes #ReconstruyeElFuturo</p>
-                        </div>
-                    </div>
-                </div>
+                  </div>
               </div>
-
-              <div class="col s12 l4">
-                <div class="card">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                          <img class="activator" src="img/edinicial.jpeg">
-                        </div>
-                        <div class="card-content">
-                          <span class="card-title activator grey-text text-darken-4">Educación Inicial<i class="material-icons right">more_vert</i></span>
-                          <p class=".hide-on-med-and-up"><a href="https://wa.me/message/QEPS6PKKX7RSF1" target="_blank">whatsapp</a></p>
-                      
-                        </div>
-                        <div class="card-reveal">
-                          <span class="card-title grey-text text-darken-4">Educación Inicial / Sala Maternal<i class="material-icons right">close</i></span>
-                          <p>INSCRIPCIONES ABIERTAS ciclo 23-24
-                            Sala maternal STEAM</p>
-                        </div>
-                    </div>
-                </div>
-              </div>
+              
           </div>
+      </div>    
+  </section>
 
 
-    </section>
-    
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="img/cubos.png" alt="maquinas" class="responsive-img">
-        </div>
+
+  <section class="gallery min-vh-100" id="galeria">
+    <div class="container-lg">
+
+      <div class="col-md-6 mb-5">
+        <h5 class="display-5 text-muted poppins-semibold ">Galeria</h5> 
+      </div>   
+
+       <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+          <div class="col">
+             <img src="assets/bg.jpg" class="gallery-item" alt="gallery">
+          </div>
+          <div class="col">
+             <img src="assets/andreastorre.jpeg" class="gallery-item" alt="gallery">
+          </div>
+          <div class="col">
+             <img src="assets/ana.jpeg" class="gallery-item" alt="gallery">
+          </div>
+          <div class="col">
+             <img src="assets/tere.jpeg" class="gallery-item" alt="gallery">
+          </div>
+          <div class="col">
+             <img src="assets/lichi_clase.jpeg" class="gallery-item" alt="gallery">
+          </div>
+          <div class="col">
+             <img src="assets/chicos_clase.jpeg" class="gallery-item" alt="gallery">
+          </div>
+       </div>
     </div>
+ </section>
 
-    <section class="container section scrollspy" id="servicios">
-        
-        <div class="row"></div>
-        <div class="row">
+<!-- Modal -->
+<div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered modal-lg">
+   <div class="modal-content">
+     <div class="modal-header">
+       <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+        <img src="img/1.jpg" class="modal-img" alt="modal img">
+     </div>
+   </div>
+ </div>
+</div>
 
-            <div class="col s12 l6">
-                <ul class="collection with-header">
-                    <li class="collection-header"><h3 class="indigo-text text darken-4">Servicios</h3></li>
-                    <li class="collection-item">Sala maternal STEAM</li>
-                    <li class="collection-item">Talleres extra escolares de iniciación literaria, conversación en otros idiomas (inglés, alemán),
-                                                steam, expresión corporal, arte, ingeniería y mecánica, escritura creativa, religión, etc.</li>
-                    <li class="collection-item">Talleres estacionales de primavera, verano e invierno y viernes técnicos.</li>
-                    <li class="collection-item">Apoyo y seguimiento a necesidades especiales de aprendizaje, de lenguaje y comunicación, motricidad,
-                                                atención y nivelaciones académicas.</li>
-                    <li class="collection-item">Sala maternal STEAM</li>
-                    <li class="collection-item">Vinculaciones especiales con escuelas, empresas e instituciones.</li>
-                    <li class="collection-item">Actividades intergeneracionales.</li>
-                    <li class="collection-item">Clínicas temáticas interactivas.</li> 
-                    <li class="collection-item">Eventos y dinámicas especiales (detección de necesidades, integración, convivencia, creatividad, comunicación, desarrollo de talento, etc.).</li>                            
-                  </ul>
-            </div>  
-               
-        </div>
-        
-        </div>
-
-
-
-
-    </section>
-
-    <footer class="page-footer indigo accent-1">
-        <div class="container">
-          <div class="row">
-            <div class="col l6 ofsett-l1 s12">
+    <footer id="footer">
+      <div class="container-fluid">
+        <div class="container-lg">
+          <div class="row poppins-light fs-6 aling-items-center">
+            <div class="col-md-4 col-lg-4">
+              <a class="y-5" href="#intro" ><img class="img-flex" id="logo" src="assets/logo_koguo_2.png" width="180" alt="Koguo"/></a>
+              <p>Avenida. 37 Oriente 2004 Colonia El Mirador <span><a class="icon-link" href="https://maps.app.goo.gl/3h94LFmLRvtmoLg77" target="_blank">
+                <i class="bi bi-geo-alt-fill"></i></a>    </span> <br> Teléfono / whatsapp 2225703589</p>
            
-              <a href="#!" class="brand-logo"><img class="responsive-img" id="logo" src="img/logo_trans.png" width="180" alt="Koguo"/></a>
-              <p class="grey-text text-lighten-4">37 Oriente 2004 Colonia El Mirador</p>
-              <p class="grey-text text-lighten-4">Telé fono / whatsapp 2225703589</p>
-              <a class="grey-text text-lighten-3" href="mailto:contacto@koguo.mx">contacto@koguo.mx</a>
-            </div>  
-
-            <div class="col l6 s12 right-align">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.921087173168!2d-98.1961682885336!3d19.023198653552335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc093a47d75d3%3A0x2888b1c54849af01!2sKoguo%20-%20Taller%20de%20Ideas!5e0!3m2!1sen!2smx!4v1708473652891!5m2!1sen!2smx" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+              <a href="mailto:contacto@koguo.mx">contacto@koguo.mx</a>
             </div>
-            
+           
+            <div class="text-center p-3">
+              © 2024 Koguo taller de ideas
+            </div>
           </div>
         </div>
-        <div class="footer-copyright">
-          <div class="container">
-          © 2024 Koguo Taller de Ideas
-          <a class="grey-text text-lighten-4 right" href="#!">Aviso de Privacidad</a>
-          </div>
-        </div>
-      </footer>
+      </div> 
+    </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+    <script>
+    document.addEventListener("click",function (e){
+      if(e.target.classList.contains("gallery-item")){
+          const src = e.target.getAttribute("src");
+          document.querySelector(".modal-img").src = src;
+          const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'));
+          myModal.show();
+      }
+    })
+  </script>
 </body>
-
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-<script>
-       $(document).ready(function(){
-
-       $('.sidenav').sidenav();
-       $('.parallax').parallax();
-       $('.collapsible').collapsible();
-       $('.fixed-action-btn').floatingActionButton();
-       $('.scrollspy').scrollSpy();
-    
-    
-    
-    
-    });
-
-
-
-</script>
 </html>
