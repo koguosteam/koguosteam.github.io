@@ -215,15 +215,18 @@
   font-style: italic;
   }
   
-  
+  #textHero {
+  text-shadow: 1px 1px 10px #c3ba18;
+
+  }
 
   #introbg {
       padding-top: 5vmax;
       padding-bottom: 5vmax;
       background-color: #EAD94C;
-      background-image: url(/assets/tam.png);
+      background-image: url(/assets/emilio_guitar.png);
       background-image: ;
-      background-position: 90%;
+      background-position: 100%;
       background-repeat: no-repeat;
       background-size: contain;
   }
